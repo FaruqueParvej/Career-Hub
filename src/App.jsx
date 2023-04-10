@@ -1,14 +1,16 @@
 import { useState } from "react";
 
 import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <h1 className="text-center">tailwind and daisy ui added</h1>
-      <button className="btn">Button</button>
+      <Header></Header>
+      <Footer></Footer>
     </div>
   );
 }

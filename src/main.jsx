@@ -3,10 +3,33 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./components/home/Home";
+import Statistics from "./components/statistics/Statistics";
+import Jobs from "./components/jobs/jobs";
+import Blog from "./components/blog/Blog";
+import Banner from "./components/banner/Banner";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element: <Home></Home>,
+    children: [
+      {
+        path: "/",
+        element: <Banner></Banner>,
+      },
+      {
+        path: "statistics",
+        element: <Statistics></Statistics>,
+      },
+      {
+        path: "jobs",
+        element: <Jobs></Jobs>,
+      },
+      {
+        path: "blog",
+        element: <Blog></Blog>,
+      },
+    ],
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
