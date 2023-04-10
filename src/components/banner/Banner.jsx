@@ -1,5 +1,6 @@
 import React from "react";
-import JobCategories from "../jobCategories/JobCategories";
+import JobCategories from "../JobCategories/JobCategories";
+import FeaturedJobs from "../featuredJobs/FeaturedJobs";
 
 const Banner = () => {
   return (
@@ -29,6 +30,7 @@ const Banner = () => {
       <div className="flex justify-center text-center">
         <JobCategories></JobCategories>
       </div>
+      <FeaturedJobs></FeaturedJobs>
     </div>
   );
 };

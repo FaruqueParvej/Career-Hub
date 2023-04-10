@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "companyName": "OpenRefactory, Inc",
+    "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQGpjs86KEfHWA/company-logo_200_200/0/1653309665692?e=2147483647&v=beta&t=0ZetmBTFogkeadRP09EBmbqnsQ3cdpAwhI1Mef_Ynk4",
+    "jobType1": "Full-time",
+    "jobType2": "Remote",
+    "location": "New York, NY",
+    "salaryRange": "$80,000 - $100,000",
+    "details": "We are looking for an experienced frontend developer to join our team and help us build amazing web applications using modern frontend technologies such as React, Angular, and Vue. You should have a strong understanding of HTML, CSS, and JavaScript, and be comfortable working in a fast-paced environment."
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "companyName": "Sheba.xyz",
+    "companyLogo": "https://play-lh.googleusercontent.com/KdD-PttwhTyD3ALaL-pW0t5sjymog-RALwhoxh0ee1K8rXDaIVZvCcw8ToE22UYGNDQ",
+    "jobType1": "Full-time",
+    "jobType2": "Remote",
+    "location": "San Francisco, CA",
+    "salaryRange": "$90,000 - $110,000",
+    "details": "We are seeking an experienced backend developer to join our team and help us build scalable and reliable web applications using modern backend technologies such as Node.js, Python, and Ruby on Rails. You should have a strong understanding of database design and architecture, RESTful APIs, and be comfortable working in an Agile development environment."
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "companyName": "BRAINNEST",
+    "companyLogo": "https://static.wixstatic.com/media/4fa9c2_0b28731f38304ed0989a8c0582f953a3~mv2.png/v1/fill/w_2500,h_2500,al_c/4fa9c2_0b28731f38304ed0989a8c0582f953a3~mv2.png",
+    "jobType1": "Contract",
+    "jobType2": "Onsite",
+    "location": "Remote",
+    "salaryRange": "$50 - $75 per hour",
+    "details": "We are looking for a talented UI/UX designer to work on a contract basis and help us create beautiful and intuitive user interfaces for our web and mobile applications. You should have experience working with design tools such as Sketch, Figma, or Adobe XD, and be comfortable working in a remote team environment."
+  },
+  {
+    "id": 4,
+    "title": "Product Manager",
+    "companyName": "MatchaTalent",
+    "companyLogo": "https://cdn.techinasia.com/data/images/xqNPVS8DQhTgZADOAVvwn2yGl8P1d64HITiIIEWo.png",
+    "jobType1": "Full-time",
+    "jobType2": "Onsite",
+    "location": "Chicago, IL",
+    "salaryRange": "$100,000 - $120,000",
+    "details": "We are seeking a talented product manager to lead our product development efforts and help us bring new features and products to market. You should have experience working in Agile product development environments, and be comfortable working with cross-functional teams of designers, developers, and marketers."
+  },
+  {
+    "id": 5,
+    "title": "Data Scientist",
+    "companyName": "Tokenmetrics",
+    "companyLogo": "https://yt3.googleusercontent.com/smYVY9SGGwuOb_9mwgJSw6_5ASH_ipuGxB9JVx6TuEYQTQkY2qeBkQz2Hyu-3NxJGcpaWhje_A=s900-c-k-c0x00ffffff-no-rj",
+    "jobType1": "Full-time",
+    "jobType2": "Remote",
+    "location": "Boston, MA",
+    "salaryRange": "$120,000 - $140,000",
+    "details": "We are looking for a talented data scientist to join our team and help us extract insights from large and complex data sets using statistical and machine learning techniques. You should have experience working with tools such as Python, R, and SQL, and be comfortable working in a collaborative team environment."
+  },
+  {
+    "id": 6,
+    "title": "Marketing Manager",
+    "companyName": "Mural",
+    "companyLogo": "https://mma.prnewswire.com/media/1962561/Mural_Logo.jpg?p=facebook",
+    "jobType1": "Full-time",
+    "jobType2": "Onsite",
+    "location": "Atlanta, GA, USA",
+    "salaryRange": "$90",
+    "details": "We are looking for a talented data scientist to join our team and help us extract insights from large and complex data sets using statistical and machine learning techniques. You should have experience working with tools such as Python, R, and SQL, and be comfortable working in a collaborative team environment."
+  }
+]

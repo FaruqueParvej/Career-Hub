@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import JobCategory from "../jobCatagory/JobCategory";
+import JobCategory from "../JobCatagory/JobCategory";
 
 const JobCategories = () => {
   const [jobCategories, setJobCategories] = useState([]);

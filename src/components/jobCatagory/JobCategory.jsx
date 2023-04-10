@@ -1,7 +1,6 @@
 import React from "react";
 
 const JobCategory = ({ jobCategory }) => {
-  console.log(jobCategory);
   return (
     <div className="sm:m-10 my-5 ">
       <div className="details text-center ">
