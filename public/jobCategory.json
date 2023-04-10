@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "./Icons/accounts 1.png",
+    "name": "Software Engineer",
+    "availability": "100+ jobs available"
+  },
+  {
+    "id": 2,
+    "image": "./Icons/business 1.png",
+    "name": "Hardware Engineer",
+    "availability": "500+ jobs available"
+  },
+  {
+    "id": 3,
+    "image": "./Icons/chip 1.png",
+    "name": "Network Engineer",
+    "availability": "300+ jobs available"
+  },
+  {
+    "id": 4,
+    "image": "./Icons/social-media 1.png",
+    "name": "Systems Engineer",
+    "availability": "250+ jobs available"
+  }
+]
