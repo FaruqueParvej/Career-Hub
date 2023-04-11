@@ -27,10 +27,12 @@ const Banner = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center text-center">
+      <div className="flex justify-center text-center my-4">
         <JobCategories></JobCategories>
       </div>
-      <FeaturedJobs></FeaturedJobs>
+      <div className="flex justify-center text-center my-4">
+        <FeaturedJobs></FeaturedJobs>
+      </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "Frontend Developer",
     "companyName": "OpenRefactory, Inc",
     "companyLogo": "https://media.licdn.com/dms/image/C4D0BAQGpjs86KEfHWA/company-logo_200_200/0/1653309665692?e=2147483647&v=beta&t=0ZetmBTFogkeadRP09EBmbqnsQ3cdpAwhI1Mef_Ynk4",
@@ -11,7 +11,7 @@
     "details": "We are looking for an experienced frontend developer to join our team and help us build amazing web applications using modern frontend technologies such as React, Angular, and Vue. You should have a strong understanding of HTML, CSS, and JavaScript, and be comfortable working in a fast-paced environment."
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Backend Developer",
     "companyName": "Sheba.xyz",
     "companyLogo": "https://play-lh.googleusercontent.com/KdD-PttwhTyD3ALaL-pW0t5sjymog-RALwhoxh0ee1K8rXDaIVZvCcw8ToE22UYGNDQ",

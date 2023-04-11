@@ -16,7 +16,7 @@ const FeaturedJobs = () => {
           animi!
         </p>
       </div>
-      <div className="columns-1 sm:columns-2 gap-8">
+      <div>
         {featuredJobs.map((featuredJob) => (
           <FeaturedJob
             key={featuredJob.id}
@@ -24,7 +24,9 @@ const FeaturedJobs = () => {
           ></FeaturedJob>
         ))}
       </div>
-      <button className="btn">See All Jobs</button>
+      <div>
+        <button className="btn">See All Jobs</button>
+      </div>
     </div>
   );
 };

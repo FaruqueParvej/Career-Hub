@@ -31,7 +31,7 @@ const FeaturedJob = ({ featuredJob }) => {
           </p>
           <div className="card-actions justify-start">
             <button className="btn btn-primary">
-              <Link to="/details">View details</Link>{" "}
+              <Link to={`/details/${id}`}>View details</Link>
             </button>
           </div>
         </div>
