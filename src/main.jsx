@@ -5,12 +5,10 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
 import Statistics from "./components/Statistics/Statistics";
-import Jobs from "./components/jobs/jobs";
+import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Blog from "./components/Blog/Blog";
 import Banner from "./components/Banner/Banner";
-import JobCategory from "./components/JobCategories/JobCategories";
 import Details from "./components/Details/Details";
-import FeaturedJobs from "./components/FeaturedJobs/FeaturedJobs";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,8 +28,9 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>,
       },
       {
-        path: "jobs",
-        element: <Jobs></Jobs>,
+        path: "AppliedJobs",
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => fetch(`/featuredJob.json`),
       },
       {
         path: "blog",

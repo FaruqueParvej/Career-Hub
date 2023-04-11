@@ -11,7 +11,7 @@ const Header = () => {
       <div className="flex flex-col md:flex-row nav-item md:mx-10 md:items-center">
         <Link to="/">Home</Link>
         <Link to="/statistics">Statistics</Link>
-        <Link to="/jobs">Applied Jobs</Link>
+        <Link to="/AppliedJobs">Applied Jobs</Link>
         <Link to="/blog">Blog</Link>
       </div>
       <div className="flex justify-center">

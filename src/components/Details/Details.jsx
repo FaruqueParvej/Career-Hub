@@ -1,9 +1,23 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 
 const Details = () => {
   const { id } = useParams();
   const details = useLoaderData();
+  const navigate = useNavigate();
+  const job = details.find((item) => item.id === id);
+  const applyHandler = () => {
+    const storedApplication =
+      JSON.parse(localStorage.getItem("appliedJobs")) || [];
+    const existingJob = storedApplication?.find((job) => job.id === id);
+    if (existingJob !== undefined) {
+      console.log("already exist");
+    } else {
+      storedApplication.push(job.id);
+      localStorage.setItem("appliedJobs", JSON.stringify(storedApplication));
+    }
+    navigate("/AppliedJobs");
+  };
 
   const jobDetails = details.find((job) => job.id === id);
   const {
@@ -64,7 +78,7 @@ const Details = () => {
         </div>
         <div>
           <button
-            onClick={handler}
+            onClick={applyHandler}
             className="bg-slate-600 rounded-lg p-2 text-white my-2"
           >
             Apply Now
