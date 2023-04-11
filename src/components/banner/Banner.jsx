@@ -5,7 +5,7 @@ import FeaturedJobs from "../featuredJobs/FeaturedJobs";
 const Banner = () => {
   return (
     <div>
-      <div className=" flex flex-col m-4 p-4 sm:flex-row">
+      <div className=" flex flex-col m-4 p-4 md:flex-row">
         <div>
           <h1 className="text-7xl flex flex-col mb-5">
             One step <span>closer to your </span>{" "}

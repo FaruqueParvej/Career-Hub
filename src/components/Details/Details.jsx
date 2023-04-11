@@ -63,7 +63,12 @@ const Details = () => {
           </p>
         </div>
         <div>
-          <button className="btn">Apply Now</button>
+          <button
+            onClick={handler}
+            className="bg-slate-600 rounded-lg p-2 text-white my-2"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
