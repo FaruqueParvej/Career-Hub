@@ -13,11 +13,15 @@ const AppliedJob = ({ job }) => {
     salaryRange,
   } = job;
   return (
-    <div className="m-10 p-10 border-2 flex items-center justify-between rounded-xl">
+    <div className="p-4 my-4 md:m-10 md:p-10 border-2 md:flex items-center justify-between rounded-xl">
       <div>
-        <img className="w-48 h-48" src={companyLogo} alt="" />
+        <img
+          className="md:w-48 md:h-48 rounded-xl mx-auto"
+          src={companyLogo}
+          alt=""
+        />
       </div>
-      <div className="grow mx-10">
+      <div className="grow md:mx-10">
         <h1 className="text-2xl font-bold ">{title}</h1>
         <h2 className="mb-4">{companyName}</h2>
         <p>
@@ -30,28 +34,7 @@ const AppliedJob = ({ job }) => {
         </p>
 
         <p className="mt-4">
-          <span className="me-3">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-              />
-            </svg>
-            {location}
-          </span>
+          <span className="me-3">{location}</span>
           <span>Salary: {salaryRange}</span>
         </p>
       </div>

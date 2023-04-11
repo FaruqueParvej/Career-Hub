@@ -16,7 +16,9 @@ const Banner = () => {
             error iusto tenetur eligendi laborum, praesentium obcaecati commodi
             tempora dignissimos aliquam.
           </p>
-          <button className="btn">Get Started</button>
+          <button className="bg-purple-600 rounded-lg p-2 text-white my-2">
+            Get Started
+          </button>
         </div>
         <div>
           <img

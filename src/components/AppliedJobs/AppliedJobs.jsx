@@ -9,7 +9,7 @@ const AppliedJobs = () => {
   const appliedJobs = jobs.filter((item) => storedId.includes(item.id));
   console.log(appliedJobs);
   return (
-    <div className="m-10 p-10">
+    <div className="md:m-10 p-10">
       {appliedJobs.map((job) => (
         <AppliedJob key={job.id} job={job}></AppliedJob>
       ))}

@@ -19,7 +19,7 @@ const FeaturedJob = ({ featuredJob }) => {
         <div className="p-5">
           <figure>
             <img
-              className="w-48 h-48 object-cover object-center"
+              className="w-48 h-48 object-cover object-center rounded-xl"
               src={companyLogo}
               alt="Album"
             />
