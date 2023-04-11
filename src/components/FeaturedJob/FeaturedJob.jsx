@@ -7,8 +7,8 @@ const FeaturedJob = ({ featuredJob }) => {
     title,
     companyName,
     companyLogo,
-    jobType1,
-    jobType2,
+    jobType,
+    jobPlace,
     location,
     salaryRange,
     details,
@@ -19,11 +19,11 @@ const FeaturedJob = ({ featuredJob }) => {
         <figure>
           <img className="w-32" src={companyLogo} alt="Album" />
         </figure>
-        <div className="card-body">
+        <div className="card-body text-start">
           <h2 className="card-title">{title}</h2>
           <p>
-            <span className="border-2 p-2 m-2 rounded"> {jobType1}</span>
-            <span className="border-2 p-2 m-2 rounded"> {jobType2}</span>
+            <span className="border-2 p-2 me-2 mb-3 rounded"> {jobType}</span>
+            <span className="border-2 p-2 me-2 mb-3 rounded"> {jobPlace}</span>
           </p>
           <p>
             <span>{location}</span>

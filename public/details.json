@@ -3,19 +3,9 @@
     "id": 1,
     "jobTitle": "Software Engineer",
     "jobDescription": "We are seeking a talented software engineer to join our team.",
-    "jobResponsibilities": [
-      "Design, develop, and maintain software applications.",
-      "Collaborate with cross-functional teams to identify and prioritize features.",
-      "Write clean, maintainable, and efficient code.",
-      "Troubleshoot and debug issues as they arise.",
-      "Stay up-to-date with emerging trends and technologies in software engineering."
-    ],
+    "jobResponsibilities": "Design, develop, and maintain software applications.",
     "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
-    "experiences": [
-      "3+ years of experience in software engineering.",
-      "Experience with front-end and back-end technologies such as React, Node.js, and SQL.",
-      "Experience with agile development methodologies."
-    ],
+    "experiences": "3+ years of experience in software engineering.",
     "salary": "Competitive",
     "phone": "123-456-7890",
     "email": "jobs@company.com",
@@ -25,18 +15,9 @@
     "id": 2,
     "jobTitle": "Marketing Manager",
     "jobDescription": "We are seeking a creative and strategic marketing manager to join our team.",
-    "jobResponsibilities": [
-      "Develop and implement marketing strategies that align with company goals.",
-      "Collaborate with cross-functional teams to create and execute campaigns.",
-      "Measure and analyze the effectiveness of marketing campaigns.",
-      "Stay up-to-date with emerging trends and technologies in marketing."
-    ],
+    "jobResponsibilities": "Develop and implement marketing strategies that align with company goals.",
     "educationalRequirements": "Bachelor's degree in Marketing or related field.",
-    "experiences": [
-      "5+ years of experience in marketing.",
-      "Experience with digital marketing channels such as SEO, PPC, and social media.",
-      "Experience with marketing automation and CRM tools."
-    ],
+    "experiences": "5+ years of experience in marketing.",
     "salary": "Competitive",
     "phone": "123-456-7890",
     "email": "jobs@company.com",

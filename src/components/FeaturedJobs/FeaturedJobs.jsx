@@ -16,7 +16,7 @@ const FeaturedJobs = () => {
           animi!
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-4 gap-4">
         {featuredJobs.map((featuredJob) => (
           <FeaturedJob
             key={featuredJob.id}

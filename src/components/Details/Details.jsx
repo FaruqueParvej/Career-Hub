@@ -2,60 +2,65 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 
 const Details = () => {
-  const details = useLoaderData();
-  // console.log(details);
   const { id } = useParams();
+  const details = useLoaderData();
 
-  const [jobListing, setJobListing] = useState({});
-  useEffect(() => {
-    const jobData = details.find((job) => job.id == id);
-    // console.log(jobData);
-    setJobListing(jobData);
-  }, []);
-  console.log(jobListing);
+  const jobDetails = details.find((job) => job.id === id);
+  const {
+    jobDescription,
+    jobResponsibilities,
+    educationalRequirements,
+    experiences,
+    title,
+    phone,
+    salaryRange,
+    address,
+    Email,
+  } = jobDetails;
   return (
     <div className="flex flex-col sm:flex-row justify-center m-4 py-10">
       <div className="px-20">
         <div>
           <p>
-            <strong>Job description: </strong> {jobListing.jobDescription}
+            <strong>Job description: </strong> {jobDescription}
           </p>
         </div>
         <div>
-          <p>
-            <strong>Job responsibilities:</strong>
-            {jobListing.jobResponsibilities.map((jobResponsibility) => (
-              <p>{jobResponsibility}</p>
-            ))}
-          </p>
+          <strong>Job Responsibilities </strong> {jobResponsibilities}
         </div>
         <div>
           <p>
             <strong>Educational requirements: </strong>
-            {jobListing.educationalRequirements}
+            {educationalRequirements}
           </p>
         </div>
         <div>
           <p>
             <strong>experiences: </strong>
+            {experiences}
           </p>
-          <ul className="list-none">
-            {jobListing.experiences.map((experience) => (
-              <li>{experience}</li>
-            ))}
-          </ul>
         </div>
       </div>
       <div>
         <div>
-          <h1>Job Details</h1>
-          <p>Salary</p>
-          <p>Job title</p>
+          <h1 className="text-2xl font-bold">Job Details</h1>
+          <p>{salaryRange}</p>
+          <p>
+            <strong>Job title: </strong>
+            {title}
+          </p>
         </div>
         <div>
-          <h1>Contact Information</h1>
-          <p>phone</p>
-          <p>Email</p>
+          <h1 className="text-2xl font-bold">Contact Information</h1>
+          <p>
+            <strong>phone: </strong> {phone}
+          </p>
+          <p>
+            <strong>Email: </strong> {Email}
+          </p>
+          <p>
+            <strong>Address: </strong> {address}
+          </p>
         </div>
         <div>
           <button className="btn">Apply Now</button>
