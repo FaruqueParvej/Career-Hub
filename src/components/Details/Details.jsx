@@ -34,7 +34,7 @@ const Details = () => {
     phone,
     salaryRange,
     address,
-    Email,
+    email,
   } = jobDetails;
   return (
     <div className="flex flex-col sm:flex-row justify-center m-4 py-10">
@@ -75,7 +75,7 @@ const Details = () => {
             <strong>phone: </strong> {phone}
           </p>
           <p>
-            <strong>Email: </strong> {Email}
+            <strong>Email: </strong> {email}
           </p>
           <p>
             <strong>Address: </strong> {address}
