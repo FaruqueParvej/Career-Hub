@@ -1,18 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import toast from "react-hot-toast";
 import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 
 const Details = () => {
   const { id } = useParams();
   const details = useLoaderData();
   const navigate = useNavigate();
+
   const job = details.find((item) => item.id === id);
   const applyHandler = () => {
     const storedApplication =
       JSON.parse(localStorage.getItem("appliedJobs")) || [];
-    const existingJob = storedApplication?.find((job) => job.id === id);
-    if (existingJob !== undefined) {
-      console.log("already exist");
+
+    const existingJob = storedApplication?.find((storedId) => storedId === id);
+
+    if (existingJob) {
+      toast.error("Already Applied");
     } else {
+      toast.success("Successfully Applied");
       storedApplication.push(job.id);
       localStorage.setItem("appliedJobs", JSON.stringify(storedApplication));
     }
