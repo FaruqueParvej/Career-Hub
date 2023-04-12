@@ -9,14 +9,14 @@ const Blog = () => {
         </h2>
         <div className="m-4 p-4 bg-indigo-200 rounded-xl">
           <h3 className="font-bold text-xl">
-            1. When should you use context API?
+            1. When should we use context API?
           </h3>
           <p>
-            You should use Context API when you have data that needs to be
-            accessed by multiple components at different levels in your
-            component tree. Instead of passing data through props at each level,
-            you can simply provide the data to a parent component using Context
-            API and have child components consume it using the useContext hook.
+            We use Context API when we have data that needs to be accessed by
+            multiple components at different levels in our component tree.
+            Instead of passing data through props at each level, we can simply
+            provide the data to a parent component using Context API and have
+            child components consume it using the useContext hook.
           </p>
         </div>
         <div className="m-4 p-4 bg-indigo-200 rounded-xl">
