@@ -12,9 +12,8 @@ const Banner = () => {
             <span className="text-green-700 pb-2">Dream job</span>
           </h1>
           <p className="mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-            error iusto tenetur eligendi laborum, praesentium obcaecati commodi
-            tempora dignissimos aliquam.
+            Discover your dream job and access comprehensive details on
+            thousands of job opportunities through our platform.
           </p>
           <button className="bg-purple-600 rounded-lg p-2 text-white my-2">
             Get Started
